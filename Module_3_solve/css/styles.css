@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #3399ff;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  padding-top: auto;
+  padding-bottom: : auto;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Kaushan Script', cursive;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list span{
+  font-size: 1.8em;
+  text-transform: capitalize;
+}
+#nav-list li:hover{
+  background: #fff;
+  color: #3399ff;
+}
+hr {
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+/*END HEADER*/
+/*INDEX PAGE*/
+#main-content{
+  width:95%;
+  margin-right:auto;
+  margin-left:auto;
+}
+#pbox{
+  background-color:	#778899;
+}
+h2{
+  font-family: 'Kaushan Script', cursive;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+#pbox div:nth-child(2){
+  margin: 5px;
+}
+#chicken-title,#beef-title,#sushi-title{
+  margin-top: 3px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: capitalize;
+}
